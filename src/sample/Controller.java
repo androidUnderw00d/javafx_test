@@ -29,6 +29,7 @@ public class Controller {
         if (message.isEmpty()) {
             System.out.println("Вы ничего не написали");
         } else {
+
             listView.getItems().add(message);
         }
         inputField.clear();
